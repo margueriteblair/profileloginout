@@ -5,6 +5,8 @@ let profileUsers = {
     location: "",
     locationsOnline: [],
     locationsOffline: [],
+
+
     login: function() {
         if (this.usersOnline.includes(this.username)) {
             console.log(`----WARNING! THIS USER ${this.username} ALREADY LOGGED IN----`);
@@ -14,7 +16,8 @@ let profileUsers = {
         console.log(`USERS LOGGED IN:`);
         console.log(`${this.usersOnline}`);
         console.log(`From: ${this.locationsOnline}`);
-    } },
+    } 
+},
     logout: function() {
         if (this.usersOffline.includes(this.username)) {
             console.log(`----WARNING! THIS USER ${this.username} ALREADY LOGGED OFF----`)
