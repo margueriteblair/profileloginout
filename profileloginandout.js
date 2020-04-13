@@ -48,3 +48,4 @@ users("Margie", "Boston", "out");
 users("Jamie", "Colorado", "in");
 users("Chelsea", "Providence", "out");
 users("Arnell", "NYC", "in");
+users("Arnell", "NYC", "in");
